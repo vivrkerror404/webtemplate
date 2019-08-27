@@ -1,0 +1,1214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css">
+ <!--  
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
+      <link rel="stylesheet" type="text/css" href="C:\xampp\htdocs\responsivedesign\owl.carousel.css">
+  <link rel="stylesheet" type="text/css" href="C:\xampp\htdocs\responsivedesign\owl.theme.default.css">
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="C:\xampp\htdocs\responsivedesign\owl.carousel.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css">
+   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+ <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+ <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.css">
+
+  <!--         <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="HTML,CSS">
+    <meta name="description" content="opdemy">
+      <title>Opdemy</title>
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/carousel.css"> 
+    <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+  </head>
+  <style type="text/css">
+    .span6
+    {
+      
+      margin-left: auto;
+      margin-top: 10px;
+     
+
+    }
+    .span7
+    {
+      font-size: 30px;
+      margin-left: auto;
+      margin-top: 5px;
+       animation: animate 2s ease-in 1;
+    }
+    .pull-right
+    {
+      margin-right: 30px;
+    }
+    #myimg
+    {
+      width: 260px;
+      height: 90px;
+      background-image: url('logo.png');
+      background-size: cover;
+      margin-left: 10px;
+
+    }
+    .carousel-control-prev,.carousel-control-next
+    {
+      width: 30px;
+      height: 40px;
+
+
+
+    }
+
+    #cprev,#cnext,#cnext1,#cprev1,#cnext2,#cprev2
+    {
+      background-color: black;
+      width: 40px;
+      height: 40px;
+    
+      display: none;
+      
+    }
+ 
+    .span3
+    {
+      display: inline-block;
+
+    }
+      .item
+  {
+    height: auto;
+     width:100%;
+        height: auto;
+       
+        background-size: cover;
+   
+   
+    margin: 10px;
+
+    border: 2px solid brown;
+    background-color: #fff;
+
+
+  }
+  .carousel-item
+  {
+    margin-left: 10px;
+  }
+  #welcomeline
+  {
+    background-color:rgb(243, 246, 253);
+    border:1px solid grey;
+   
+  }
+   #headnav:hover
+   {
+    box-shadow: 2px 2px 3px rgba(17, 81, 219,0.4),2px 2px 3px rgba(17, 81, 219,0.4) inset;
+   }
+   #welcomeline:hover
+   {
+    box-shadow: 2px 2px 3px rgba(17, 81, 219,0.4),2px 2px 3px rgba(17, 81, 219,0.4) inset;
+
+   }
+   .btn:hover
+   {
+    background-color: rgb(169, 111, 68);
+    box-shadow: 3px 3px 5px rgba(68, 34, 12,0.4);
+    color: #fff;
+   }
+ 
+   
+    .owl-nav
+    {
+       
+       display: none;
+       height: 40px;
+
+        
+    }
+       .owl-nav .owl-prev 
+    {
+         
+    
+        
+        float: left
+      /* margin-right: 100px;*/
+    }
+    .owl-nav .owl-next 
+    {
+       
+
+         float: right;
+    }
+   
+
+           .owl-nav .owl-prev img
+    {
+      width: 40px;
+      height: 40px;
+        float:left;
+
+
+
+    }
+    .owl-nav .owl-next img
+    {
+       width: 40px;
+      height: 40px;
+       float: right;
+
+
+      
+    }
+      .owl-nav .owl-next img:hover, .owl-nav .owl-prev img:hover
+    {
+    
+       border:1px solid brown;
+       box-shadow:3px 3px 5px rgb(178, 183, 181);
+
+      
+      
+    }
+    .btn-out-brown
+    {
+      border: 2px solid brown;
+    }
+ 
+     #belowsrchbar ul
+     {
+      list-style-type: none;
+      background-color: rgb(226, 164, 120);
+      padding: 18px 0px;
+
+     }
+       #belowsrchbar ul li
+     {
+      display: inline-block;
+      margin-left: 40px;
+
+     }
+     #mycart1
+     {
+     display: inline-block;
+     width: auto;
+     height: auto;
+      background-color:#FFF;
+      padding:10px 10px; 
+      margin-right: -10px;
+      float: right;
+     }
+     #mycart2
+     {
+      display: inline-block;
+      width: auto;
+      height: auto; 
+      background-color:#A96F44 ;
+      padding:10px 10px;
+       float: right;
+     }
+     #cartcont
+           {
+            background-color:rgb(244, 213, 159);
+
+           }
+     #visible
+     {
+      display: block;
+     }
+     .toggle-btn
+     {
+      display: none;
+     }
+     .footercol a
+     {
+      display:block;
+      margin-top: 15px;
+      
+     
+
+
+     }
+
+  
+  .footerextra  img
+  {
+   display: inline-block;
+   margin:10px;
+   border-radius: 50%;
+
+
+  }
+    .footerextra a
+    {
+      display: inline-block;
+
+    }
+    #myheadnav
+    {
+      background-color: #F2F5D0;
+    }
+    a
+    {
+      color: black;
+    }
+    a:hover
+    {
+      color: rgb(232, 98, 9);
+    }
+    #srch
+    {
+      outline: double;
+    }
+       #srch:focus
+    {
+      outline: none;
+
+    }
+      
+      
+
+
+      
+
+
+
+
+   @keyframes animate 
+   {
+    0%{transform: rotateY(720deg) scale(0.2);}
+    50%{transform: rotateY(1400deg) scale(0.9);}
+    90%{transform: scale(1.3);}
+     100%{transform: scale(1);}
+   }
+   @keyframes anima 
+   {
+    0%{transform: translateX(0px);}
+    100%{transform: translateX(700px);}
+   }
+      @media screen and (max-width: 767px)
+     {
+           #mycart1,#mycart2
+           {
+            float: right;
+
+           }
+           #mycart1
+           {
+               margin-right: 5px;
+           }
+           #cartcont
+           {
+             padding: 5px;
+             width: 100%;
+           }
+
+          
+               
+           
+         
+     }
+     @media screen and (max-width: 850px)
+     {
+       #belowsrchbar ul li
+           {
+            display: block;
+            border: 2px solid rgb(119, 68, 34);
+            margin-top: 5px;
+            margin-left: 0px;
+            width: 100%;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            padding-left:10px;
+            text-align: center;
+
+
+           
+            
+
+           }
+                #belowsrchbar ul li:hover
+           {
+            background-color: rgb(249, 244, 199);
+     }
+
+
+     }
+
+    
+
+  </style>
+  <body>
+    <div class="container-fluid  " >
+<!--     <div id="welcomeline" class="row">   
+      <div id="myimg"></div>
+  <div class="span7 p-3">Welcome!<strong> User</strong></div>
+  <div class="span6">
+  <div class="pull-right py-3">
+    <button class="btn btn-out-brown">signup</button>
+    <button class="btn btn-out-brown">login</button>
+    
+    <a href="#"><span class="btn btn-mini btn-out-brown"><i class="fas fa-cart-arrow-down"></i>[ 0 ] mycart </span> </a> 
+  </div>
+  </div>
+</div> -->
+<!-- <div class="row p-0 m-0" style="width: 100%;">
+  <div class="col-12 col-md-5 bg-dark">
+  
+</div>
+  <div style=" height: auto; background-color: red; " class="col-12 col-md-7 m-0" >
+
+ <ul id="headernav">
+   <li>login</li>
+   <li>register</li>
+   <li>wishlist</li>
+   <li>checkout</li>
+   <li>compare</li>
+
+ </ul>
+</div>
+
+  
+</div> -->
+<div class="row p-0 m-0" style="height: auto;overflow: hidden; background-color: #F2ECB6;">
+   <div class="col-md-6 col-12" style="height: 56px; animation: anima 2s linear infinite;">
+   this is an  animated frame
+</div>
+  
+<div class="col-12 col-lg-6  m-0 p-0" style="overflow: auto;">
+<nav class="navbar navbar-expand-lg " id="myheadnav" >
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border: 1px solid brown;">
+    <span class="fas fa-bars" style="color: brown;"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">login<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">register</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">wishlist</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link " href="#">checkout</a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+</div>
+
+</div>
+<div class="row p-0 m-0">
+  <div class="col-md-8 col-12  p-0 m-0" style="background-color:rgb(242, 190, 150);">
+  <form class="form-inline my-2 my-lg-0">
+     <img src="ebaylogo.png" height="100px" width="300px" class="mr-5 mt-1 mb-2 col-lg-5 col-12 pl-1">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="srch">
+      <button class="btn btn-out-brown my-2 my-sm-0"  type="submit" ><i class="fas fa-search mr-3"></i>GO</button>
+    </form>
+    </div>
+    <div class="col-sm-12 col-md-4  col-12 py-2" id="cartcont">
+   <span  id="mycart1">
+    [0] items in cart
+     
+   </span>
+   <span  id="mycart2"><i class="fas fa-cart-arrow-down"></i></span>
+    </div>
+    </div>
+   
+
+<div  style="width: 100%; " id="belowsrchbar"  >
+  <ul class="p-2">
+   
+     <li ><a href="#" class="nav-link ">HOME</a></li>
+    <li ><a href="#" class="nav-link">APS UPS & BATTERIES</a></li>
+   
+    <li ><a href="#" class="nav-link">COMPUTER ACCESORIES</a></li>
+    <li ><a href="#" class="nav-link">CONSUMABLES</a></li>
+
+    
+
+  </ul>
+  
+</div>
+<!-- <div class="row container-fluid mt-4  p-0 pl-5" id="srchbox">
+  <div class="col-md-1 col-1 p-0 bg-dark">mglens</div>
+  <div class="col-md-11 p-0 "><input type="text" name="items" class="form-control"></div>
+
+  
+</div> -->
+   <div  id="carouselExampleControls" class="carousel slide  m-0 " data-ride="carousel" data-interval="2000" style="background-color: rgb(249, 244, 199);">
+  <div class="carousel-inner container-fluid p-0  " style="height: 450px;">
+    <div class="carousel-item active m-0">
+      <img class="d-block w-100" src="camera4.jpg" alt="First slide" height="450px">
+    </div>
+    <div class="carousel-item m-0">
+      <img class="d-block w-100" src="camera2.jpg" alt="Second slide" height="450px">
+    </div>
+    <div class="carousel-item m-0">
+      <img class="d-block w-100" src="camera3.jpg" alt="Third slide" height="450px">
+    </div> 
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" >
+    <span class="carousel-control-prev-icon " aria-hidden="true" id="cprev" style="background-color: rgb(68, 34, 12)"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next" >
+    <span class="carousel-control-next-icon" aria-hidden="true" id="cnext" style="background-color: rgb(68, 34, 12);"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div style="width: 100%; height: auto; background-color: rgb(226, 164, 120); font-weight: bolder; font-family:verdana; font-size: 30px;" class="text-center my-3">best products available here</div>
+<div class="row container-fluid p-0 m-0" style="width: 100%;
+height:auto; ">
+
+  <div class="leftcont  col-12  p-0"  style="width: 100%;
+height: auto;background-color:  rgb(249, 244, 199);  ">
+ <div class="bd-example ">
+  <div id="carouselExampleCaptions1" class="carousel slide" data-ride="carousel">
+  
+    <div class="carousel-inner  ">
+      <div class="carousel-item active">
+      <div class="row mt-5 mr-2">
+
+  <div class="card col-12 col-sm-5 container ml-auto mb-2  " style=" height:auto;">
+  <div class="card-body ">
+    <h5 class="card-title">Special title treatment</h5>
+  <div class="d-block w-100 " style="width:auto; height:250px; background-image:url('sale1.jpg');background-size: cover;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p><br>
+    
+           <div class="row ">
+      <div class="col-12 col-lg-7 p-0 pt-2">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+
+     
+     
+  </div>
+  </div>
+   <div class="card col-12 col-sm-5 container ml-auto mb-2 " style="height:auto;">
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width:auto; height:250px;background-image:url('sale2.jpg');background-size: cover;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7 p-0 pt-2">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div>
+  </div>
+ <!--   <div class="card col-12 col-md-3 container ml-auto mb-2 " style=" height:auto;">
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width:auto; height:150px;background-color:red;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7 p-0">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div>
+  </div> -->
+  
+</div>
+
+       
+      </div>
+      <div class="carousel-item">
+      <div class="row mt-5 mr-2">
+
+  <div class="card col-12 col-sm-5 container ml-auto mb-2" style=" height:auto;">
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width: auto; height:250px;background-image:url('camera1.png');background-size: cover;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7 p-0 pt-2">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div>
+  </div>
+   <div class="card col-12 col-sm-5 container ml-auto mb-2" style=" height:auto;">
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width: auto;height:250px;background-image:url('camera2.jpg');background-size: cover;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7 p-0 pt-2">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div>
+  </div>
+<!--    <div class="card col-12 col-md-3 container ml-auto mb-2" style=" height:auto;">
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width:auto; height:150px;background-color:red;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7 p-0">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div>
+  </div> -->
+  
+</div>
+
+        
+      </div>
+      <div class="carousel-item">
+      <div class="row mt-5 mr-2">
+
+  <div class="card col-12 col-sm-5 container ml-auto mb-2" style=" height:auto;">
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style=" width: auto; height:250px;  background-image:url('camera3.jpg');background-size: cover;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7 p-0 pt-2">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div>
+  </div>
+   <div class="card col-12 col-sm-5 container ml-auto mb-2" style=" height:auto;">
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width: auto; height:250px; background-image:url('camera4.jpg');background-size: cover;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7 p-0 pt-2">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div>
+  </div>
+<!--    <div class="card col-12 col-md-3 container ml-auto mb-2" style=" height:auto;">
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width:auto; height:150px;background-color:red;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7 p-0">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div>
+  </div> -->
+  
+</div>
+
+        
+      </div>
+    </div>
+    <a class="carousel-control-prev " href="#carouselExampleCaptions1" role="button" data-slide="prev" >
+      <span class="carousel-control-prev-icon " aria-hidden="true" style="background-color: rgb(68, 34, 12); height: 40px; width: 30px;" id="cprev1"></span>
+      <span class="sr-only"  >Previous</span>
+    </a>
+    <a class="carousel-control-next " href="#carouselExampleCaptions1" role="button" data-slide="next" >
+      <span class="carousel-control-next-icon " aria-hidden="true" style="background-color: rgb(68, 34, 12);height: 40px; width: 30px;" id="cnext1"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+    
+  </div>
+<!--   <div class="items col-md-6 col-12 bg-dark"  style="width: 100%;
+height: 300px;">
+    
+  </div> -->
+
+
+  
+</div>
+
+<div style="width: 100%; height: auto; background-color: rgb(226, 164, 120); font-weight: bolder; font-family:verdana; font-size: 30px;" class="text-center my-3">Latest products available</div>
+ <div class="bd-example " style="background-color:  rgb(249, 244, 199);  ">
+  <div id="carouselExampleCaptions2" class="carousel slide" data-ride="carousel">
+  
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+      <div class="row mt-5 mr-2">
+
+  <div class="card col-12 col-md-3 container ml-auto mb-2 " style=" height:auto;">
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width:auto; height:150px; background-image:url('images.jpeg');background-size: cover;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7 p-0 pt-2">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div>
+  </div>
+   <div class="card col-12 col-md-3 container ml-auto mb-2 " style=" height:auto;">
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width:auto; height:150px;background-image:url('camera4.jpg');background-size: cover;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7 p-0 pt-2">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div>
+  </div>
+   <div class="card col-12 col-md-3 container ml-auto mb-2 " style=" height:auto;">
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width:auto; height:150px;background-image:url('camera3.jpg');background-size: cover;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7 p-0 pt-2">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div>
+  </div>
+  
+</div>
+
+       
+      </div>
+      <div class="carousel-item">
+      <div class="row mt-5 mr-2">
+
+  <div class="card col-12 col-md-3 container ml-auto mb-2" style=" height:auto;">
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width:auto; height:150px;background-image:url('camera2.jpg');background-size: cover;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7 p-0 pt-2" >
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div>
+  </div>
+   <div class="card col-12 col-md-3 container ml-auto mb-2" style=" height:auto;">
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width:auto; height:150px;background-image:url('camera1.png');background-size: cover;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p><br>
+      <div class="row "> 
+      <div class="col-12 col-lg-7 p-0 pt-2">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div>
+  </div>
+   <div class="card col-12 col-md-3 container ml-auto mb-2" style=" height:auto;">
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width:auto; height:150px;background-image:url('sale1.jpg');background-size: cover;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7 p-0 pt-2">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div>
+  </div>
+  
+</div>
+
+        
+      </div>
+      <div class="carousel-item">
+      <div class="row mt-5 mr-2">
+
+  <div class="card col-12 col-md-3 container ml-auto mb-2" style=" height:auto;">
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width:auto; height:150px;background-image:url('lappy2.jpg');background-size: cover;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7 p-0 pt-2">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div>
+  </div>
+   <div class="card col-12 col-md-3 container ml-auto mb-2" style=" height:auto;">
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width:auto; height:150px;background-image:url('lappy1.jpg');background-size: cover;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7 p-0 pt-2">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div>
+  </div>
+   <div class="card col-12 col-md-3 container ml-auto mb-2" style=" height:auto;">
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width:auto; height:150px;background-image:url('lappy2.jpg');background-size: cover;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7 p-0 pt-2">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div>
+  </div>
+  
+</div>
+
+        
+      </div>
+    </div>
+    <a class="carousel-control-prev " href="#carouselExampleCaptions2" role="button" data-slide="prev" >
+      <span class="carousel-control-prev-icon " aria-hidden="true" style="background-color:  rgb(68, 34, 12); height: 40px; width: 30px;" id="cprev2" ></span>
+      <span class="sr-only"  >Previous</span>
+    </a>
+    <a class="carousel-control-next " href="#carouselExampleCaptions2" role="button" data-slide="next" >
+      <span class="carousel-control-next-icon " aria-hidden="true" style="background-color:  rgb(68, 34, 12);height: 40px; width: 30px;" id="cnext2" ></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<div style="width: 100%; height: auto; background-color:rgb(226, 164, 120); font-weight: bolder; font-family:verdana; font-size: 30px;" class="text-center my-3"> on sale</div>
+  <!-- owl carousel here-->
+  <div style="background-color: rgb(249, 244, 199);" class="py-5  mb-4">
+      <div class="owl-carousel owl-theme   " id="lastslider">
+    <div class="item">
+
+       <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width:auto; height:150px;background-image:url('lappy2.jpg');background-size: cover;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7  pt-2">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div>
+</div>
+
+     
+    <div class="item">      <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width:auto; height:150px;background-image:url('camera2.jpg');background-size: cover;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7  pt-2">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div></div>
+    <div class="item">      <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width:auto; height:150px;background-image:url('lappy1.jpg');background-size: cover;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7  pt-2">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div></div>
+    <div class="item">      <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width:auto; height:150px;background-image:url('camera1.png');background-size: cover;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7  pt-2">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div></div>
+    <div class="item">      <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width:auto; height:150px;background-image:url('camera4.jpg');background-size: cover;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7  pt-2">
+         <a href="#" class="btn btn-out-brown">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div></div>
+    <div class="item">      <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+  <div style="width:auto; height:150px;background-image:url('camera3.jpg');background-size: cover;"></div><br>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p><br>
+      <div class="row ">
+      <div class="col-12 col-lg-7  pt-2">
+         <a href="#" class="btn btn-out-brown ">add to cart</a>
+      </div>
+       <div class="col-12 col-lg-5 p-0 pt-2" style="font-weight: bold;font-family: verdana;">
+        <p>cost INR 1000</p>
+      </div>
+   
+    </div>
+  </div></div>
+   
+ 
+</div>
+</div>
+<!-- footer starts -->
+  <div  id="footerSection" >
+  <div class="container-fluid text-center" style="border: 1px solid brown;">
+    <div class="row p-4"  style="background-color: rgb(242, 236, 182);">
+     
+      <div class="col-md-4 footercol mb-5"  >
+        <h5>INFORMATION</h5>
+        <a href="contact.html">CONTACT</a>  
+        <a href="register.html">REGISTRATION</a>  
+        <a href="legal_notice.html">LEGAL NOTICE</a>  
+        <a href="tac.html">TERMS AND CONDITIONS</a> 
+        <a href="faq.html">FAQ</a>
+       </div>
+      <div class="col-md-4 col-12 footercol mb-5" >
+        <h5>OUR OFFERS</h5>
+        <a href="#">NEW PRODUCTS</a> 
+        <a href="#">TOP SELLERS</a>  
+        <a href="special_offer.html">SPECIAL OFFERS</a>  
+        <a href="#">MANUFACTURERS</a> 
+        <a href="#">SUPPLIERS</a> 
+       </div>
+      <div id="socialMedia" class="col-md-4 footerextra footercol " >
+        <h5>SOCIAL MEDIA </h5>
+        <a href="#"><img width="40" height="40" src="fbook.png"  title="facebook" alt="facebook"/></a>
+        <a href="#"><img width="40" height="40" src="twitter.png" title="twitter" alt="twitter"/></a>
+        <a href="#"><img width="40" height="40" src="fbook.png" title="youtube" alt="youtube"/></a>
+       </div> 
+     </div>
+    
+  </div><!-- Container End -->
+  <p class="text-center">&copy; all right reserved</p>
+  </div>
+      </div>
+<!--   <section class="footer_bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="images/logo.png" alt="">
+        <p class="footer_about">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+      </div>
+      <div class="col-md-4">
+        <h3 class="footer_title">Quick links</h3>
+        <ul class="footer_ul">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">conract us</a></li>
+          <li><a href="#">Course</a></li>
+          <li><a href="#">Faq</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h3 class="footer_title">Social links</h3>
+        <ul class="footer_ul">
+          <li class="mb-2"><a href="#"><i class="fa fa-facebook-f" aria-hidden="true"></i> Facebook</a></li>
+          <li class="mb-2"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+          <li class="mb-2"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+          <li ><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i> Youtube</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid copy_right">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p> Copyright &copy; 2019. All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>  
+</section> -->
+  
+
+
+<!-- <script type="text/javascript">
+  
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    pagination:false,    //removingg owl dts
+    center: true,
+   
+    responsiveClass:true,
+    navigation:true,
+    rewindNav:true,
+    
+    
+ 
+   
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+         
+        }
+    }
+});
+
+
+
+
+</script> -->
+
+<!--    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script> -->
+
+<script type="text/javascript">
+  var slider=document.getElementById('carouselExampleControls');
+  slider.addEventListener("mouseover",iconvisible);
+  slider.addEventListener("mouseout",iconinvisible);
+  function iconvisible()
+  {
+     document.getElementById('cnext').style.display="inline-block";
+     document.getElementById('cprev').style.display="inline-block";
+  }
+   function iconinvisible()
+  {
+     document.getElementById('cnext').style.display="none";
+     document.getElementById('cprev').style.display="none";
+  }
+    var slider1=document.getElementById('carouselExampleCaptions1');
+  slider1.addEventListener("mouseover",iconvisible1);
+  slider1.addEventListener("mouseout",iconinvisible1);
+  function iconvisible1()
+  {
+     document.getElementById('cnext1').style.display="inline-block";
+     document.getElementById('cprev1').style.display="inline-block";
+  }
+   function iconinvisible1()
+  {
+     document.getElementById('cnext1').style.display="none";
+     document.getElementById('cprev1').style.display="none";
+  }
+      var slider2=document.getElementById('carouselExampleCaptions2');
+  slider2.addEventListener("mouseover",iconvisible2);
+  slider2.addEventListener("mouseout",iconinvisible2);
+  function iconvisible2()
+  {
+     document.getElementById('cnext2').style.display="inline-block";
+     document.getElementById('cprev2').style.display="inline-block";
+  }
+   function iconinvisible2()
+  {
+     document.getElementById('cnext2').style.display="none";
+     document.getElementById('cprev2').style.display="none";
+  }
+  //add btn hover effect in owl carousels
+  document.getElementById('lastslider').addEventListener('mouseover',iconvisible3);
+  document.getElementById('lastslider').addEventListener('mouseout',iconinvisible3);
+ 
+  function iconvisible3()
+  {
+        document.getElementsByClassName('owl-nav')[0].style.display="block";
+     document.getElementsByClassName('owl-nav')[0].style.display="block";
+
+  }
+    function iconinvisible3()
+  {
+ document.getElementsByClassName('owl-nav')[0].style.display="none";
+      document.getElementsByClassName('owl-nav')[0].style.display="none";
+
+  }
+  
+</script>
+<script type="text/javascript">
+
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:20,
+  // center:true,
+    nav:true,
+    // navText:["<img src='right-arrow-icon.png' width='30px' height='50px'>","<img src='left-arrow-icon.png' width='30px' height='50px'>"],  
+    navText:["  <i class='fas fa-chevron-left  ' style='font-size:30px; color:rgb(119, 68, 34);'></i>","<i class='fas fa-chevron-right ' style='font-size:30px; color:rgb(119, 68, 34);'></i>"], 
+
+    dots:false,
+    pagination:false, //remove owl dots
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+});
+
+
+    
+</script>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
